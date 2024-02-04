@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICoder - Heaven for Programmers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ICoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Write for Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h2>Contact Us</h2>
+
+        <form class="row g-3">
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email Address</label>
+                <input type="email" placeholder="abc000@email.com" class="form-control" id="inputEmail">
+            </div>
+
+            <select class="form-select form-select-sm" aria-label="Small select example">
+                <option selected>Select Your Query</option>
+                <option value="Web">Web</option>
+                <option value="Tech Stack">Tech Stack</option>
+                <option value="Technology">Technology</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <div class="col-12">
+                Are you a Member?
+                <div class="form-check mx-3">
+                    Yes.
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck">
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                Are you a Professor?
+                <div class="form-check mx-3">
+                    Yes.
+                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                    <label class="form-check-label" for="gridCheck">
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                Are you a Coder?
+                <div class="form-check mx-3">
+                    Yes.
+                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                    <label class="form-check-label" for="gridCheck">
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" id="floatingTextarea1" style="height: 100px"></textarea>
+                <label for="floatingTextarea1">Tell us About Yourself</label>
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Elaborate your Concern</label>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="/faq.html" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
